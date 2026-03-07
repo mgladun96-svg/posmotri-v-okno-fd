@@ -40,7 +40,7 @@ ol {
 .page {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   min-height: 100vh;
   inline-size: 1200px;
   block-size: 100%;
@@ -69,12 +69,9 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   width: 711px;
   height: 386px;
-}
-
-.result__video-container {
-  position: relative;
 }
 
 .result__video {
@@ -193,7 +190,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff; 
+  outline: 1px solid #fff;
   outline-offset: 1px;
 } 
 
@@ -216,9 +213,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.content__list-container {
   position: relative;
 }
 
@@ -257,6 +251,7 @@ ol {
 .content__card-link {
   color: #fff;
   text-decoration: none;
+  display: block;
 }
 
 .content__video-card-title {
@@ -273,10 +268,6 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 16px;
-}
-
-.content__card-link {
-  display: block;
 }
 
 .content__card-link:active {
@@ -322,16 +313,13 @@ ol {
 }
 
 .preloader-template {
-  position: absolute;
   z-index: 2;
 }
 
 .cards-list-item-template {
-  position: absolute;
   z-index: 2;
 }
 
 .error-template {
-  position: absolute;
   z-index: 2;
 }
