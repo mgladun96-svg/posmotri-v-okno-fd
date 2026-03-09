@@ -101,7 +101,7 @@ video {
   align-items: center;
   width: fit-content;
   gap: 5px;
-  appearance: none; 
+  appearance: none;
 }
 
 .search-form__label:has(:focus-visible) {
