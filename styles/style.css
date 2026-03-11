@@ -185,7 +185,7 @@ video {
 }
 
 .button:focus {
-  border: none;
+  outline: none;
 }
 
 .button:focus-visible {
@@ -292,6 +292,11 @@ img {
 }
 
 .content__card-link_current {
+  display: block;
+  background-color: #545050;
+}
+
+.content__card-link_current:active {
   display: block;
   background-color: #545050;
 }
