@@ -277,6 +277,11 @@ img {
   overflow: hidden;
 }
 
+.content__card-link:active {
+  display: block;
+  background-color: #545050;
+}
+
 .content__card-link:hover {
   text-decoration: underline;
 }
@@ -292,11 +297,6 @@ img {
 }
 
 .content__card-link_current {
-  display: block;
-  background-color: #545050;
-}
-
-.content__card-link_current:active {
   display: block;
   background-color: #545050;
 }
